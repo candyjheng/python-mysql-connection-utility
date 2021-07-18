@@ -1,0 +1,13 @@
+TestSection: # section name
+  - host: 127.0.0.2
+    user: testuser
+    passwd: testuser+123
+    schema: TestDB2
+  # socket: /var/run/mysqld/mysqld.sock
+    port: 3306
+  - host: 127.0.0.1
+    user: testuser2
+    passwd: testuser2+123
+    schema: TestDB2
+  # socket: /var/run/mysqld/mysqld.sock
+    port: 3306
